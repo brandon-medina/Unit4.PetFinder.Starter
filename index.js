@@ -46,6 +46,7 @@ app.get('/api/v1/pets/:name', (req, res) => {
 
     // send the pet as a response
     res.send(pet);
+    
 });
 
 app.listen(PORT, () => {
